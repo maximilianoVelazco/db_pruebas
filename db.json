@@ -1,74 +1,34 @@
-[
+{
+  "posts": [
     {
-        nombre: "maximiliano",
-        apellido: "velazco",
-        mail: "maximilianovelazco.mv@gmail.com",
-        contrasenia: "1234"
+      "id": 1,
+      "title": "Post 1",
+      "description": "this is description 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2",
+      "description": "this is description 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3",
+      "description": "this is description 3"
     }
+  ],
+  "comments": [
     {
-        nombre: "iguazu",
-        apellido: "velazco",
-        mail: "iguazu@gmail.com",
-        contrasenia: "1234"
+      "id": 1,
+      "body": "comment 1",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "comment 2",
+      "postId": 1
     }
-    {
-        nombre: "milo",
-        apellido: "martello",
-        mail: "milo@gmail.com",
-        contrasenia: "abcd"
-    },
-    {
-        nombre: "esteban",
-        apellido: "lopez",
-        mail: "lopez@gmail.com",
-        contrasenia: "1234"
-    },
-    {
-        nombre: "jorge",
-        apellido: "perez",
-        mail: "jorge@gmail.com",
-        contrasenia: "1234"
-    },
-    {
-        nombre: "ricardo",
-        apellido: "ruben",
-        mail: "ricardo@gmail.com",
-        contrasenia: "1234"
-    },
-    {
-        nombre: "maria",
-        apellido: "vigo",
-        mail: "maria@gmail.com",
-        contrasenia: "abcd"
-    },
-    {
-        nombre: "lucia",
-        apellido: "santillan",
-        mail: "lucia@gmail.com",
-        contrasenia: "1234"
-    },
-    {
-        nombre: "soledad",
-        apellido: "vicuña",
-        mail: "soledad@gmail.com",
-        contrasenia: "1234"
-    },
-    {
-        nombre: "agustina",
-        apellido: "otamendi",
-        mail: "agustina@gmail.com",
-        contrasenia: "1234"
-    },
-    {
-        nombre: "lucas",
-        apellido: "barrios",
-        mail: "lucas@gmail.com",
-        contrasenia: "abcd"
-    },
-    {
-        nombre: "gustavo",
-        apellido: "calvo",
-        mail: "gustavo@gmail.com",
-        contrasenia: "1234"
-    },
-]
+  ],
+  "profile": {
+    "name": "Profile 1"
+  }
+}
